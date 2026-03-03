@@ -18,7 +18,21 @@ A curated collection of SKILL.md files for AI agents working on robotics softwar
 
 ## How Agents Use These Skills
 
-### In Claude Projects / Claude Code
+### In Claude Code
+Copy or symlink the skills you need into your project's `.claude/skills/` directory:
+
+```bash
+# Copy specific skills into your robotics project
+cp -r /path/to/robotics-agent-skills/skills/ros2 .claude/skills/
+cp -r /path/to/robotics-agent-skills/skills/robot-bringup .claude/skills/
+
+# Or symlink to avoid duplication
+ln -s /path/to/robotics-agent-skills/skills/ros2 .claude/skills/ros2
+```
+
+Claude Code auto-discovers SKILL.md files in `.claude/skills/` and triggers them based on the YAML `description` field.
+
+### In Claude Projects
 Place the skill directories in your project's `/mnt/skills/user/` directory. The agent will auto-detect and reference them based on the YAML `description` field.
 
 ### In Custom Agent Frameworks
