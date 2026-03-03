@@ -43,3 +43,7 @@ files/
 
 # Skills not yet included
 skills/robotics-data-pipelines/
+
+# Eval artifacts (biased run kept locally, not pushed)
+evals/with-skills-biased/
+evals/AGENT_PROMPT_WITH_SKILLS.md
