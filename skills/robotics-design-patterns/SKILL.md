@@ -1,13 +1,6 @@
 ---
 name: robotics-design-patterns
-description: >
-  Architecture patterns, design principles, and proven recipes for building robust robotics software.
-  Use this skill when designing robot software architectures, choosing between behavioral frameworks,
-  structuring perception-planning-control pipelines, implementing state machines, designing safety
-  systems, or architecting multi-robot systems. Trigger whenever the user mentions behavior trees,
-  finite state machines, subsumption architecture, sensor fusion, robot safety, watchdogs, heartbeats,
-  graceful degradation, hardware abstraction layers, real-time constraints, or software architecture
-  for robots. Also applies to sim-to-real transfer, digital twins, and robot fleet management.
+description: Use when designing robot software architecture, choosing between behavior trees and FSMs, implementing sensor fusion pipelines, building safety/watchdog systems, creating hardware abstraction layers, or structuring perception-planning-control stacks
 ---
 
 # Robotics Design Patterns

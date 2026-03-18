@@ -1,12 +1,6 @@
 ---
 name: robotics-testing
-description: >
-  Testing strategies, patterns, and tools for robotics software. Use this skill when writing unit tests,
-  integration tests, simulation tests, or hardware-in-the-loop tests for robot systems. Trigger whenever
-  the user mentions testing ROS nodes, pytest with ROS, launch_testing, simulation testing, CI/CD for
-  robotics, test fixtures for sensors, mock hardware, deterministic replay, regression testing for robot
-  behaviors, or validating perception/planning/control pipelines. Also covers property-based testing
-  for kinematics, fuzz testing for message handlers, and golden-file testing for trajectories.
+description: Use when writing unit or integration tests for ROS nodes, setting up launch_testing, mocking hardware interfaces for testing, configuring HIL (hardware-in-the-loop) or simulation-based tests, or building CI/CD pipelines for robotics projects
 ---
 
 # Robotics Testing Skill
